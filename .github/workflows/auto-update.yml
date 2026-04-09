@@ -1,1 +1,37 @@
+name: Auto-update from FluxNet
 
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Download from FluxNet
+        run: |
+          curl -L -o fluxnet.txt "https://fluxnet.short.gy/sub-vpnfree"
+          
+      - name: Replace names
+        run: |
+          sed -i 's/FluxNet/xNiksizNet❄️/g' fluxnet.txt
+          sed -i 's/| Flux /| xNiksiz /g' fluxnet.txt
+          sed -i 's/ FN/ XN/g' fluxnet.txt
+          sed -i 's/FN$/XN/g' fluxnet.txt
+          
+      - name: Update sub.txt
+        run: |
+          cp fluxnet.txt sub.txt
+          
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sub.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update from FluxNet"
+          git push
