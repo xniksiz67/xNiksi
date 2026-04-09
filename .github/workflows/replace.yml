@@ -1,0 +1,18 @@
+name: Replace FluxNet
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'sub.txt' ]
+
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sed -i 's/FluxNet/xNiksizNet❄️/g' sub.txt
+      - run: sed -i 's/ FN/ XN/g' sub.txt
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Auto-replace
+          file_pattern: sub.txt
