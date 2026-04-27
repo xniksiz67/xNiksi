@@ -1,188 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+#profile-title: xNiksizNet❄️
+#announce: Если вы в Happ и все в н/д то делайте так: настройки - пинг - tcp и всё!
+#profile-update-interval: 6
+#support-url: https://t.me/fluxnett_bot
+#profile-web-page-url: https://t.me/fluxnettg
 
-<head>
-    <title>Phone verification required</title>
-    <link rel="preconnect" href="https://d2te5kruq0pvbl.cloudfront.net">
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    
-    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
-    
-    <style type="text/css">
-        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-
-        :root {
-            
-            --theme-bg-color: #f9f9f9;
-            --theme-primary-color: #383738;
-            --theme-secondary-color: #1FB07E;
-            --theme-text-color: rgba(56, 55, 56, 0.7);
-            --theme-heading-color: rgba(51,51,61,1);
-            --theme-link-color: rgba(56, 55, 56, 0.7);
-            --theme-button-text-color: #fff;
-            --theme-content-bg: #fff;
-            --theme-font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-            
-            --default-line-height: 1.56rem;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-        html {
-            min-height: 100%;
-            font-size: clamp(12px, 1.19791vw, 21px);
-        }
-        body {
-            min-height: 100vh;
-            background-color: var(--theme-bg-color);
-            display: grid;
-            grid-template-rows: 1fr auto 1fr;
-            font-family: var(--theme-font-family);
-            align-items: center;
-            color: var(--theme-text-color);
-            line-height: var(--default-line-height);
-        }
-        a {
-            color: var(--theme-link-color);
-        }
-        h1 {
-            color: var(--theme-heading-color);
-            font-weight: 600;
-            font-size: 2rem;
-            line-height: 2.47rem;
-            text-align: center;
-        }
-        .subtitle {
-            margin-top: 1.7708vw;
-            text-align: center;
-            overflow-wrap: break-word;
-        }
-        .subtitle-url {
-            word-break: break-all;
-        }
-        .content {
-            background-color: var(--theme-content-bg);
-            width: 52.08%;
-            max-width: calc(100% - 16px);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 7.08vmin 4.84375vmin;
-            box-sizing: border-box;
-            justify-self: center;
-            border-radius: 12px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-        }
-        .content.fraud-content {
-            padding-top: 5vmin;
-        }
-        .fraud-content .subtitle {
-            margin-top: 16px;
-        }
-        h1.fraud {
-            margin-top: 9px;
-        }
-        .main_image {
-            margin-top: 0.364583vw;
-            width: 24.11vmax;
-        }
-        .content_footer {
-            text-align: center;
-        }
-        a.button, button.button {
-            margin-top: 2.08333vmax;
-            display: inline-block;
-            background-color: var(--theme-primary-color);
-            color: var(--theme-button-text-color);
-            padding: 1.3541vmax 3.0208vmax;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            letter-spacing: 0.5px;
-            font-size: 0.85714rem;
-            line-height: 0.85714rem;
-            text-transform: uppercase;
-            border: none;
-            border-radius: 6px;
-            transition: opacity 0.2s;
-        }
-        a.button:hover, button.button:hover {
-            opacity: 0.85;
-        }
-        .fraud {
-            color: var(--theme-secondary-color);
-            font-weight: bold;
-        }
-
-        @media (max-width: 420px) {
-            .content {
-                width: calc(100% - 16px);
-                margin: 8px;
-                padding: 7.08vmin 24px;
-            }
-        }
-    </style>
-
-    <style>
-        .status-icon {
-            width: 4.5rem;
-            height: 4.5rem;
-            border-radius: 50%;
-            background-color: color-mix(in srgb, var(--theme-secondary-color) 15%, transparent);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.2rem;
-        }
-        .status-icon::after {
-            content: "!";
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--theme-secondary-color);
-        }
-        .content h1 {
-            font-size: 1.6rem;
-            line-height: 2rem;
-        }
-        .divider {
-            width: 3rem;
-            height: 3px;
-            background-color: var(--theme-secondary-color);
-            border: none;
-            margin: 1.2rem 0;
-        }
-        .hint {
-            margin-top: 1.5rem;
-            padding: 1rem 1.5rem;
-            background-color: var(--theme-bg-color);
-            border-radius: 8px;
-            font-size: 0.85rem;
-            text-align: center;
-            line-height: 1.4;
-        }
-        .button {
-            margin-top: 2rem;
-            background-color: var(--theme-secondary-color) !important;
-        }
-        .content_footer {
-            font-size: 0.78rem;
-            opacity: 0.6;
-        }
-    </style>
-</head>
-<body>
-        
-        <div></div>
-        <div class="content">
-            <div class="status-icon"></div>
-            <h1>Phone verification required</h1>
-            <hr class="divider">
-            <p class="subtitle">The domain owner needs to verify their phone number.<br>Once verified, this domain will start working immediately.</p>
-            <div class="hint">Are you the domain owner? Log in to your Short.io dashboard to complete phone verification.</div>
-            <a class="button" href="https://app.short.io/users/dashboard/links?utm_source=phone_unverified_page" rel="nofollow">OPEN DASHBOARD</a>
-        </div>
-        <p class="content_footer">If you're not the domain owner, please contact them to complete verification</p>
-</body>
-</html>
+vless://ce540111-fd82-4459-b974-06d83beb01d5@images.samsung.com:443?mode=auto&path=%2Fxh-607ebdab9d5f&security=tls&encryption=none&host=images.samsung.com&fp=chrome&type=xhttp&sni=images.samsung.com#%F0%9F%8F%B3%20%D0%A2%D0%95%D0%A1%D0%A2%D0%9E%D0%92%D0%AB%D0%99%20%D0%9E%D0%91%D0%A5%D0%9E%D0%94
+hysteria2://ce540111-fd82-4459-b974-06d83beb01d5@86.104.72.131:443?security=tls&insecure=1&sni=bing.com#%F0%9F%87%BA%F0%9F%87%B8%20%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0
+vless://ce540111-fd82-4459-b974-06d83beb01d5@62.3.12.197:443?security=reality&encryption=none&pbk=tbF4ybsJ9QdVUKKaOsXPbbCXNZSk6VYIacykxnSDDyo&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=images.samsung.com&sid=856976bc#%F0%9F%87%B9%F0%9F%87%B7%20%D0%A2%D1%83%D1%80%D1%86%D0%B8%D1%8F
+vless://ce540111-fd82-4459-b974-06d83beb01d5@213.159.70.66:443?security=reality&encryption=none&pbk=Wq6JRQt2m7IKbFD_mXWhVHqauP4DE8wAIlGj90p1ARI&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=images.samsung.com&sid=14f20258#%F0%9F%87%AD%F0%9F%87%B0%20%D0%93%D0%BE%D0%BD%D0%BA%D0%BE%D0%BD%D0%B3
+vless://ce540111-fd82-4459-b974-06d83beb01d5@94.131.117.29:443?security=reality&encryption=none&pbk=bvHZAQuLSAw2Eoq1Uz9Svnplz8woe_muux3NTdujPm8&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=images.samsung.com&sid=404e1e47#%F0%9F%87%AA%F0%9F%87%B8%20%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F
+vless://ce540111-fd82-4459-b974-06d83beb01d5@213.159.66.103:443?security=reality&encryption=none&pbk=_weOr9J2-wG4TIjBRIjeudkzvX-IdiM8ae8LrjxeFwo&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=images.samsung.com&sid=2066080a#%F0%9F%87%A7%F0%9F%87%B7%20%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D1%8F
+vless://ce540111-fd82-4459-b974-06d83beb01d5@images.samsung.com:443?mode=auto&path=%2Fxh-b4dffc6ee8a1&security=tls&encryption=none&host=images.samsung.com&fp=chrome&type=xhttp&sni=images.samsung.com#%F0%9F%87%AC%F0%9F%87%A7%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F
+vless://ce540111-fd82-4459-b974-06d83beb01d5@images.samsung.com:443?mode=auto&path=%2Fxh-9ae79ec586ef&security=tls&encryption=none&host=images.samsung.com&fp=chrome&type=xhttp&sni=images.samsung.com#%F0%9F%87%B0%F0%9F%87%BF%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD
+vless://ce540111-fd82-4459-b974-06d83beb01d5@images.samsung.com:443?mode=auto&path=%2Fxh-9ae79ec586ef&security=tls&encryption=none&host=images.samsung.com&fp=chrome&type=xhttp&sni=images.samsung.com#%F0%9F%87%B0%F0%9F%87%BF%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD
+vless://ce540111-fd82-4459-b974-06d83beb01d5@193.58.122.190:443?security=reality&encryption=none&pbk=HQhvCk_YVph7Bd-O6UDB7vuRhJAAQgElADxexlo5vCQ&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=images.samsung.com&sid=f0b8ac8c#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F
+vless://ce540111-fd82-4459-b974-06d83beb01d5@2.26.96.200:443?security=reality&encryption=none&pbk=KQQOowi02PcvoSv7iLxAdct8UQwCgcVsCaoy4-p1dms&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=images.samsung.com&sid=5b6488d9#%F0%9F%87%B3%F0%9F%87%B1%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B
+vless://ce540111-fd82-4459-b974-06d83beb01d5@45.12.135.143:443?security=reality&encryption=none&pbk=9HVAgu_GsGaduckkC1NNBKbpRPfdjrhT_GRsnOfjohU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=images.samsung.com&sid=7d14672a#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F
+vless://ce540111-fd82-4459-b974-06d83beb01d5@171.22.133.223:443?security=reality&encryption=none&pbk=pT9gbVq2xSvtTCVuqoI0Z8VEr3jxJkMBhIbotHo-gwE&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=3babf5b9#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%91%D0%95%D0%9B%D0%AB%D0%95%20%D0%A1%D0%9F%D0%98%D0%A1%D0%9A%D0%98
+vless://31ee2941-c9b5-4ac2-a8e7-0987d30dcb4c@r1.mizulina.top:22231?security=tls&encryption=none&headerType=none&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=r1.mizulina.top#%F0%9F%87%B3%F0%9F%87%B1%20%D0%A3%D1%81%D0%BA%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%7C%20xNiksizNet❄️
+vless://739e1178-7a78-427e-87c3-633882cc8f32@msc01.prvxvpn.icu:443?security=reality&encryption=none&pbk=Uwj82vGl-jAhU3VflWnTy7rISYi03slggjS32Zx8pkk&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=swscan.apple.com#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%7C%20xNiksizNet❄️
+vless://b4069225-44d5-4543-a9ff-2f6d170b6006@nle.tunnelguard.ru:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=nle.tunnelguard.ru&fp=firefox&type=xhttp&sni=nle.tunnelguard.ru#%F0%9F%87%B8%F0%9F%87%AA%20%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F%20%7C%20xNiksizNet❄️
+vless://4468b7eb-1c51-4f67-bd45-2b40ec2e90a7@fl-1.stay-secure.vip:443?security=reality&encryption=none&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=ign.com&sid=fe2e437f64f2da7a#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20XN
+vless://4468b7eb-1c51-4f67-bd45-2b40ec2e90a7@de-1.stay-secure.vip:2053?security=reality&encryption=none&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=images.apple.com&sid=fe2e437f64f2da7a#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20-%20Speed%20%F0%9F%9A%80%7C%20XN
+vless://4468b7eb-1c51-4f67-bd45-2b40ec2e90a7@pl.stay-secure.vip:2096?security=reality&encryption=none&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=drive2.ru&sid=fe2e437f64f2da7a#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20-%20Speed%20%F0%9F%9A%80%20%7C%20XN
+vless://4468b7eb-1c51-4f67-bd45-2b40ec2e90a7@lt.stay-secure.vip:443?security=reality&encryption=none&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=vz.lt&sid=fe2e437f64f2da7a#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%20-%20Speed%20%E2%9C%85%20%7C%20XN
+vless://4468b7eb-1c51-4f67-bd45-2b40ec2e90a7@it.stay-secure.vip:443?security=reality&encryption=none&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&sid=fe2e437f64f2da7a#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20XN
+vless://4468b7eb-1c51-4f67-bd45-2b40ec2e90a7@nll.stay-secure.vip:2053?security=reality&encryption=none&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=images.apple.com&sid=fe2e437f64f2da7a#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands%20-%20%F0%9F%9A%80%20%7C%20XN
+vless://4468b7eb-1c51-4f67-bd45-2b40ec2e90a7@fl-2.stay-secure.vip:443?security=reality&encryption=none&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=ign.com&sid=fe2e437f64f2da7a#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%E2%84%962%20-%20Speed%20%7C%20%20XN
+vless://4468b7eb-1c51-4f67-bd45-2b40ec2e90a7@fr.stay-secure.vip:443?security=reality&encryption=none&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=drive2.ru&sid=fe2e437f64f2da7a#%F0%9F%87%AB%F0%9F%87%B7%20France%20-%20Speed%20%7C%20XN
+vless://4468b7eb-1c51-4f67-bd45-2b40ec2e90a7@nll.stay-secure.vip:2096?security=reality&encryption=none&pbk=H2W1qvM0nUovlPadYco7_EWiZ_psfcLxOPJwOs3BDXU&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&sid=fe2e437f64f2da7a#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands%20%D0%B1%D0%B5%D0%B7%20%D0%A0%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B%20%7C%20FLUXNET
