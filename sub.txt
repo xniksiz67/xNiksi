@@ -4,5 +4,9 @@
 #support-url: https://t.me/fluxnett_bot
 #profile-web-page-url: https://t.me/fluxnettg
 
-vless://7c51fb9d-47d1-45e8-a498-2bbc7de516d7@shh-subs.mooo.com:443?security=reality&encryption=none&pbk=Nz4qJaZ2xCiFA0AvdU33xt45WIJoFle2pgMIlb2jhEA&headerType=none&fp=edge&spx=%2Fa338CwrMReKdA1c&type=tcp&flow=xtls-rprx-vision&sni=www.nvidia.com&sid=8f371d#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%28%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9%29
-vless://7c51fb9d-47d1-45e8-a498-2bbc7de516d7@shh-subs.mooo.com:8443?mode=auto&path=%2F&security=reality&encryption=none&extra=%7BscMaxEachPostBytes%3D1000000%2C%20scMinPostsIntervalMs%3D30%2C%20xPaddingBytes%3D100-1000%7D&pbk=OG3qRCsIEnW6TmVVUYhRamPc4HAQDptQtOXi03d75WY&fp=firefox&spx=%2FYxP3wFW2tZsStZu&type=xhttp&sni=www.microsoft.com&sid=90072fda35c3578e#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%28%D0%B7%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%29
+vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slarktop.viange.eu:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=rKk5BU7N6Bm6Sgm7uHu6iIpl4U5fZViRMdanSu9dBlU&sni=slarktop.viange.eu&sid=6ba85179e30d#🇺🇸 США
+vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slark.guseff.su:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slark.guseff.su&sid=6ba85179e30d#🇩🇪 Германия 1
+vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slarktop.aktion.cl:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slarktop.aktion.cl&sid=6ba85179e30d#🇩🇪 Германия 24 на 7
+vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slark.sos.al:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slark.sos.al&sid=6ba85179e30d#🇩🇪 Германия | 2
+vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slarkgame.n43.pw:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slarkgame.n43.pw&sid=6ba85179e30d#🇫🇮 Финляндия | Для игр
+vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slark.root.sx:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slark.root.sx&sid=6ba85179e30d#🇳🇱 Нидерланды
