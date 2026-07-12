@@ -11,5 +11,7 @@ vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@185.8.106.163:443?encryption=none&f
 vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@185.8.106.163:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fluxorbit-on.ru&fp=firefox&pbk=sviFnw0hrzXi4Df6Bs4MFFTuBmH2hwvquvFPNzhDcW8&sid=d9662905&type=tcp#🇺🇸 Сша 
 vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@31.25.11.130:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=zaplio-gook.ru&fp=qq&pbk=qm-zp2dNT8dDO9KWbfQrxN3IKT0JlNZkWT53aaCKfxM&sid=5e3ab3ab228625&type=tcp#🇷🇴 Румыния
 vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@2.27.26.51:443?encryption=none&security=reality&sni=draftnest-rrew.ru&fp=firefox&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=5e3ab3ab228625&type=grpc&serviceName=nexusGrpc#🇪🇸 Испания
-vless://2f97947e-add9-4dbe-b1a2-063d839e555c@46.254.17.58:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок
-vless://45e84ad4-8195-407e-bb0a-4870efc0c930@46.182.24.89:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок резерв
+vless://a2fa6b66-9ac8-4414-9768-3d1e06efc714@84.201.173.79:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇸 Обход глушилок | Мегафон
+vless://a2fa6b66-9ac8-4414-9768-3d1e06efc714@46.254.17.58:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок
+vless://a5b52059-528b-41c7-b611-5f3a945b4cdf@46.182.24.89:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок резерв
+vless://a17b6c7e-dd46-4910-a3d1-5ad537f60db2@31.129.42.56:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок резерв 2
