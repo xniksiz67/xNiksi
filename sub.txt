@@ -4,14 +4,15 @@
 #support-url: https://t.me/fluxnett_bot
 #profile-web-page-url: https://t.me/fluxnettg
 
-hysteria2://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@histerrr-faq-www.ru:443?sni=histerrr-faq-www.ru&fp=firefox#🇩🇪 Германияㅤ
-vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@84.32.209.210:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=statusdetector404.ru&fp=firefox&pbk=Zq6qL8R76CWAsWlI1m_684JcC6Jw_kFAZNshxfjivB0&sid=6ba85179e30d4fc2&type=tcp#🇱🇻 Латвия
-vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@84.32.209.210:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=statusdetector404.ru&fp=firefox&pbk=xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE&sid=6ba85179e30d4fc2&type=tcp#🇪🇪 Эстония
-vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@185.8.106.163:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fluxorbit-on.ru&fp=firefox&pbk=sviFnw0hrzXi4Df6Bs4MFFTuBmH2hwvquvFPNzhDcW8&sid=4a&type=tcp#🇨🇦 Канада
-vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@185.8.106.163:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fluxorbit-on.ru&fp=firefox&pbk=sviFnw0hrzXi4Df6Bs4MFFTuBmH2hwvquvFPNzhDcW8&sid=d9662905&type=tcp#🇺🇸 Сша 
-vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@31.25.11.130:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=zaplio-gook.ru&fp=qq&pbk=qm-zp2dNT8dDO9KWbfQrxN3IKT0JlNZkWT53aaCKfxM&sid=5e3ab3ab228625&type=tcp#🇷🇴 Румыния
-vless://bf49e769-bcd8-4565-bd60-bb52ec4fffc6@2.27.26.51:443?encryption=none&security=reality&sni=draftnest-rrew.ru&fp=firefox&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=5e3ab3ab228625&type=grpc&serviceName=nexusGrpc#🇪🇸 Испания
-vless://a2fa6b66-9ac8-4414-9768-3d1e06efc714@84.201.173.79:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇸 Обход глушилок | Мегафон
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@84.32.209.210:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=statusdetector404.ru&fp=firefox&pbk=Zq6qL8R76CWAsWlI1m_684JcC6Jw_kFAZNshxfjivB0&sid=6ba85179e30d4fc2&type=tcp#🇱🇻 Латвия
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@84.32.209.210:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=statusdetector404.ru&fp=firefox&pbk=xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE&sid=6ba85179e30d4fc2&type=tcp#🇪🇪 Эстония
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@185.8.106.163:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fluxorbit-on.ru&fp=firefox&pbk=sviFnw0hrzXi4Df6Bs4MFFTuBmH2hwvquvFPNzhDcW8&sid=0bc73dd1f045&type=tcp#🇨🇦 Канада
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@185.8.106.163:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fluxorbit-on.ru&fp=firefox&pbk=sviFnw0hrzXi4Df6Bs4MFFTuBmH2hwvquvFPNzhDcW8&sid=5e3ab3ab228625&type=tcp#🇺🇸 Сша  
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@2.27.26.197:443?encryption=none&security=reality&sni=kotiki-katakbasio-rossiiiii.ru&fp=firefox&pbk=WRCMuTlpVmthJnyP3LK0sL-u5WlN15GVJpD8F37ZjD0&sid=5e3ab3ab228625&type=grpc&serviceName=nexusGrpc#🇬🇪 Грузия
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@144.31.0.100:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vaultivo-hgooe.ru&fp=firefox&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=d9662905&type=tcp#🇵🇱 Польша
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@144.31.128.56:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=33432ews-topology-gslb-yccdn.ru&fp=firefox&pbk=tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug&sid=d9662905&type=tcp#🇸🇪 Швеция
 vless://a2fa6b66-9ac8-4414-9768-3d1e06efc714@46.254.17.58:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок
-vless://a5b52059-528b-41c7-b611-5f3a945b4cdf@46.182.24.89:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок резерв
-vless://a17b6c7e-dd46-4910-a3d1-5ad537f60db2@31.129.42.56:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок резерв 2
+vless://953e5f09-8f95-4b2e-9259-d609d7768c22@46.254.17.58:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок резерв 2 
+vless://a5b52059-528b-41c7-b611-5f3a945b4cdf@31.129.42.56:80?encryption=none&security=none&type=grpc&serviceName=grpc#🇷🇺 Обход глушилок резерв 3
+
+  
