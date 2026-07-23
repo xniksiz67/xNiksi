@@ -4,13 +4,776 @@
 #support-url: https://t.me/fluxnett_bot
 #profile-web-page-url: https://t.me/fluxnettg
 
-vless://8f273bcc-15f2-4c96-8942-8aae51eddd8e@24gedolam-vawset.ru:443?type=tcp&security=reality&pbk=tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug&fp=firefox&sni=24gedolam-vawset.ru&sid=9767f8&flow=xtls-rprx-vision#🇳🇱 Нидерланды
-vless://8f273bcc-15f2-4c96-8942-8aae51eddd8e@144.31.128.56:443?type=tcp&security=reality&pbk=tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug&fp=firefox&sni=33432ews-topology-gslb-yccdn.ru&sid=5e3ab3ab228625&flow=xtls-rprx-vision#🇸🇪 Швеция
-vless://8f273bcc-15f2-4c96-8942-8aae51eddd8e@24gedolam-vawset.ru:443?type=tcp&security=reality&pbk=tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug&fp=firefox&sni=24gedolam-vawset.ru&sid=bc8307f814&flow=xtls-rprx-vision#🇧🇪 Бельгия
-vless://8f273bcc-15f2-4c96-8942-8aae51eddd8e@2.27.26.51:443?type=grpc&security=reality&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&fp=firefox&sni=draftnest-rrew.ru&sid=0bc73dd1f045&serviceName=nexusGrpc#🇪🇸 Испания
-vless://8f273bcc-15f2-4c96-8942-8aae51eddd8e@144.31.129.42:443?type=grpc&security=reality&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&fp=firefox&sni=morphbinerkkw.ru&sid=5e3ab3ab228625&serviceName=nexusGrpc#🇦🇱 Албания
-vless://8f273bcc-15f2-4c96-8942-8aae51eddd8e@144.31.129.9:443?type=tcp&security=reality&pbk=gF0oeN2ndJ1hDZynSUu504hiXzUI6oioEerdyG7yMVQ&fp=firefox&sni=qwins-mirrorconv.ru&sid=0bc73dd1f045&flow=xtls-rprx-vision&encryption=none#🇧🇾 Беларусь
-vless://8f273bcc-15f2-4c96-8942-8aae51eddd8e@95.85.228.34:443?type=grpc&security=reality&pbk=ibignrnL_bVupAb4hFM939eT22FtlzPvc1FZY_FDwnw&fp=firefox&sni=1vga81kaw013f-topology-gslb-yccdn.ru&sid=d9662905&serviceName=nexusGrpc&encryption=none#YouTube Без рекламы
-vless://8f273bcc-15f2-4c96-8942-8aae51eddd8e@185.8.106.163:443?type=tcp&security=reality&pbk=sviFnw0hrzXi4Df6Bs4MFFTuBmH2hwvquvFPNzhDcW8&fp=firefox&sni=fluxorbit-on.ru&sid=0bc73dd1f045&flow=xtls-rprx-vision&encryption=none#🇨🇦 Канада
-vless://661d616f-5b64-499c-af2d-608ac89dcd46@shop.apexvpn.space:443?type=xhttp&security=tls&sni=shop.apexvpn.space&alpn=h2%2Chttp%2F1.1&fp=ios&path=%2Fapi%2Fcart%2Fsync&host=shop.apexvpn.space&mode=packet-up&encryption=none#🇪🇺 LTE Белые списки
-vless://661d616f-5b64-499c-af2d-608ac89dcd46@shop2.apexvpn.space:443?type=xhttp&security=tls&sni=shop2.apexvpn.space&alpn=h2%2Chttp%2F1.1&fp=ios&path=%2Fapi%2Fcart%2Fsync&host=shop2.apexvpn.space&mode=packet-up&encryption=none#🇪🇺 LTE Белые списки 2
+{
+  "dns": {
+    "queryStrategy": "UseIPv4",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "http"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "87.120.108.150",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "2.26.254.62",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "2.26.224.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "2.26.224.100",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-4"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "81.90.21.59",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-5"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "81.90.21.67",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-6"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.128.235.44",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-7"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "150.241.83.126",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-8"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.76.103.109",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-9"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "81.90.21.78",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-10"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.76.103.111",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-11"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "144.31.219.128",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-12"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.76.55.163",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-13"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "150.241.72.77",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-14"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.233.75.131",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-15"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.233.75.132",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-16"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.56.188.123",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-17"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.183.221.175",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-18"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.183.221.190",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-19"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.183.221.174",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-20"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.183.221.165",
+            "port": 443,
+            "users": [
+              {
+                "id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+          "serverName": "www.amd.com",
+          "shortId": "635a76c25a4b1820"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-api-v2",
+          "multiMode": true
+        }
+      },
+      "tag": "proxy-21"
+    },
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block"
+    }
+  ],
+  "remarks": "🚀 🇪🇺 Авто",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch",
+    "balancers": [
+      {
+        "tag": "balancer",
+        "selector": [
+          "proxy"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        },
+        "fallbackTag": "direct"
+      }
+    ],
+    "rules": [
+      {
+        "outboundTag": "direct",
+        "protocol": [
+          "bittorrent"
+        ],
+        "type": "field"
+      },
+      {
+        "type": "field",
+        "balancerTag": "balancer",
+        "network": "tcp,udp"
+      }
+    ]
+  },
+  "burstObservatory": {
+    "subjectSelector": [
+      "proxy"
+    ],
+    "pingConfig": {
+      "connectivity": "",
+      "destination": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "sampling": 2,
+      "timeout": "10s"
+    }
+  }
+}
