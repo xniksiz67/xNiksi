@@ -1,13 +1,2 @@
-#profile-title: xNiksizNet❄️
-#announce: Если вы в Happ и все в н/д то делайте так: настройки - пинг - tcp и всё!
-#profile-update-interval: 6
-#support-url: https://t.me/fluxnett_bot
-#profile-web-page-url: https://t.me/fluxnettg
-
-vless://aa1769c1-7ccf-45c5-87a7-1609b295862c@87.120.108.150:8444?type=xhttp&security=reality&pbk=jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ&fp=firefox&sni=www.amd.com&sid=635a76c25a4b1820&mode=stream-one&path=%2Fxh#🇩🇪%20Германия%20№1
-vless://aa1769c1-7ccf-45c5-87a7-1609b295862c@2.26.224.98:8444?type=xhttp&security=reality&pbk=jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ&fp=firefox&sni=www.amd.com&sid=635a76c25a4b1820&mode=stream-one&path=%2Fxh#🇵🇱%20Польша%20№1
-vless://aa1769c1-7ccf-45c5-87a7-1609b295862c@2.26.224.100:8444?type=xhttp&security=reality&pbk=jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ&fp=firefox&sni=www.amd.com&sid=635a76c25a4b1820&mode=stream-one&path=%2Fxh#🇵🇱%20Польша%20№2
-vless://aa1769c1-7ccf-45c5-87a7-1609b295862c@31.77.56.112:8444?type=xhttp&security=reality&pbk=jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ&fp=firefox&sni=www.amd.com&sid=635a76c25a4b1820&mode=stream-one&path=%2Fxh#🎮%20Польша
-vless://aa1769c1-7ccf-45c5-87a7-1609b295862c@193.35.17.100:8444?type=xhttp&security=reality&pbk=jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ&fp=firefox&sni=www.amd.com&sid=635a76c25a4b1820&mode=stream-one&path=%2Fxh#🎮%20Финляндия
-vless://aa1769c1-7ccf-45c5-87a7-1609b295862c@150.241.83.126:8444?type=xhttp&security=reality&pbk=jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ&fp=firefox&sni=www.amd.com&sid=635a76c25a4b1820&mode=stream-one&path=%2Fxh#🇺🇸%20США%20№1
-vless://aa1769c1-7ccf-45c5-87a7-1609b295862c@5.39.253.115:8444?type=xhttp&security=reality&pbk=jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ&fp=firefox&sni=www.amd.com&sid=635a76c25a4b1820&mode=stream-one&path=%2Fxh#🇰🇿%20Казахстан%20№1
+429: Too Many Requests
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
